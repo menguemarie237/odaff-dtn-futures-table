@@ -12,7 +12,6 @@
  * @package           odaff
  */
 
-
 add_action( 'init', function() {
 	wp_register_script(
 		'dtn-futures-table',
@@ -21,7 +20,7 @@ add_action( 'init', function() {
 	wp_register_script(
 		'dtn-futures-table-front',
 		plugin_dir_url( __FILE__ ) . '/front-end.js',
-		[ 'dtn-news-list' ],
+		[ 'dtn-futures-table' ],
 		false,
 		true
 	);

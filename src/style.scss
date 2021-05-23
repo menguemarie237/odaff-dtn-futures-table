@@ -5,8 +5,30 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-create-block-odaff-dtn-futures-table {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+.wp-block-odaff-dtn-futures-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loading-message {
+	display: flex;
+
+	svg {
+	  margin: auto;
+	  animation-name: loading-spin;
+	  animation-duration: 1000ms;
+	  animation-iteration-count: infinite;
+	  animation-timing-function: linear;
+	}
+  }
+}
+
+
+@keyframes loading-spin {
+  from {
+	transform: rotate(0deg);
+  }
+  to {
+	transform: rotate(360deg);
+  }
 }

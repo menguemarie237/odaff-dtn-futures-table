@@ -4,10 +4,42 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-create-block-odaff-dtn-futures-table {
-  background-color: #21759b;
-  color: #fff;
-  padding: 2px;
+.wp-block-odaff-dtn-futures-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-odaff-dtn-futures-table .loading-message {
+  display: flex;
+}
+.wp-block-odaff-dtn-futures-table .loading-message svg {
+  margin: auto;
+  -webkit-animation-name: loading-spin;
+          animation-name: loading-spin;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=style-index.css.map*/

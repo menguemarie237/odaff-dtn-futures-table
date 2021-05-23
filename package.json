@@ -15,7 +15,8 @@
 	"dependencies": {
 		"@wordpress/block-editor": "^6.1.0",
 		"@wordpress/blocks": "^9.1.0",
-		"@wordpress/i18n": "^4.1.0"
+		"@wordpress/i18n": "^4.1.0",
+		"lodash.isequal": "^4.5.0"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^16.1.0"
