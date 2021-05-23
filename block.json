@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "odaff/dtn-futures-table",
+	"title": "DTN Futures Table",
+	"category": "odaff",
+	"description": "A block for Gutenberg to display DTN Content's Futures Table.",
+  "supports": {
+	"html": false,
+	"align": ["left", "right", "center"]
+  },
+	"textdomain": "odaff",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
